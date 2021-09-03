@@ -9,7 +9,7 @@ var center = {
 var radius = 100
 
 var data = [{
-        name: "label1",
+        name: 'label1',
         color: 'red',
         weight: 2
     },
@@ -112,7 +112,7 @@ function runRoullet() {
             clearTimeout(id);
             startFlag = false;
             stopFlag = false;
-            var current_deg = 360 - Math.ceil((deg_counter - 90) % 360)
+            var current_deg =360  - Math.ceil((deg_counter - 90) % 360)
             var sum = 0
             var _i = 0
             for (var i = 0; i < data.length; i++) {
@@ -180,7 +180,8 @@ function showLabel() {
         text += `
         <tr>
         <td style="width:20px;background-color:${data[i].color};"></td>
-        <td>${data[i].name}</td>
+        
+        <td><input type="text">
         </tr>`
     }
 
