@@ -10,42 +10,42 @@ var radius = 100
 
 var data = [{
         name: 'label1',
-        color: 'red',
+        color: '#8a2be2',
         weight: 2
     },
     {
         name: "label2",
-        color: 'blue',
+        color: '#5f9ea0',
         weight: 2
     },
     {
         name: "label3",
-        color: 'green',
+        color: '#ff7f50',
         weight: 2
     },
     {
         name: "label4",
-        color: 'yellow',
+        color: '#dc143c',
         weight: 2
     },
     {
         name: "label5",
-        color: '#fff',
+        color: '#b8860b',
         weight: 2
     },
     {
         name: "label6",
-        color: '#000',
+        color: '#bdb76b',
         weight: 2
     },
     {
         name: "label7",
-        color: 'lightblue',
+        color: '#ff8c00',
         weight: 2
     },
     {
         name: "label8",
-        color: 'grey',
+        color: '#228b22',
         weight: 2
     }
 ]
